@@ -1,6 +1,6 @@
 @charset "UTF-8";
 #menu {
-    position: absolute;
+    position: fixed;
     top: 28%;
     left: 10%;
     transform: translate(-50%, -50%);
@@ -11,7 +11,7 @@
     height:170px;
   }
   @media only screen and (max-width: 600px) {
-    #aviso {
+    #menu {
         width: 90%; /* Define a largura como 90% da largura da tela em dispositivos com largura de tela de até 600 pixels */
         left: 50%;
         top: 24%;
